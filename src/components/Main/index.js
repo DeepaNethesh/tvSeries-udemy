@@ -1,8 +1,10 @@
+// eslint-disable-next-line
 import { render } from '@testing-library/react'
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Series from '../../containers/series/index'
 import SingleSeries from '../../containers/SingleSeries/index'
+
 const Main = props => {
 
        return (
@@ -12,7 +14,7 @@ const Main = props => {
     </Switch>
        )
    }
-    
+
 
 
 export default Main
